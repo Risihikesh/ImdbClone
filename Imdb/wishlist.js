@@ -38,7 +38,7 @@ function renderListItems(jsonResp, id){
                 <img src=${TMDB_IMAGE_BASE_URL+jsonResp.poster_path} alt="Thumbnail">
             </div>
                 <div class="title">
-                    <a href="moviePage.html?id=${id}"> ${jsonResp.title} </a> 
+                    <a href="description.html?id=${id}"> ${jsonResp.title} </a> 
                     <span> | <b><i class="fas fa-clock"></i></b> ${jsonResp.runtime} | Popularity: ${jsonResp.popularity}</span>
                 </div>
                 
